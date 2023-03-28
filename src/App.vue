@@ -1,3 +1,6 @@
+<script setup>
+import 'bootstrap'
+</script>
 <template>
     <router-view></router-view>
 </template>
