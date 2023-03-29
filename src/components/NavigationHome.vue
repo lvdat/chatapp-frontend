@@ -35,6 +35,9 @@
     font-size: 18px;
     color: #000;
 }
+.nav-link:hover {
+    color: red;
+}
 .navbar-toggler, .navbar-toggler.collapsed{
     border: none;
 }
@@ -42,6 +45,11 @@
     margin: 20px 10px 20px 10px;
 }
 .nav-text {
-    color: blue;
+    background: #121FCF;
+    background: -webkit-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background: -moz-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 </style>

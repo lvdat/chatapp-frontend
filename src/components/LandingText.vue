@@ -6,7 +6,7 @@
             Bất cứ đâu
         </h1>
         <p class="landing-text_body">
-            Ứng dụng nhắn tin trực tuyến
+            Ứng dụng nhắn tin trực tuyến đa nền tảng. Tham gia ngay hôm nay để kết nối với mọi người!
         </p>
     </span>
 </template>

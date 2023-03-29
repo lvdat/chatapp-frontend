@@ -4,9 +4,21 @@
     font-weight: normal;
     font-style: normal;
 }
-:root, body {
-    font-family: "Calibre", Arial, sans-serif;
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    font-size: 20px;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root, body {
+    font-family: 'Open Sans', 'Roboto', 'Calibre', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
 }
