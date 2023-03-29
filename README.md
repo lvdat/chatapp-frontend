@@ -24,15 +24,15 @@ yarn build
 
 ## To do
 - [ ] Landing Page for guest
-  - [ ] Login form
+  - [x] Login form
   - [ ] Register form
   - [ ] Terms & Policy page
   - [ ] Features page
   - [ ] For Developers page (API Docs)
   - [ ] App Download page
 - [ ] Make Main page for user
-  - [ ] Make Toolbar menu
-  - [ ] Make Toolbar searchbar
+  - [x] Make Toolbar menu
+  - [x] Make Toolbar searchbar
   - [ ] Make Conversation list
   - [ ] Make Message Main page
   - [ ] Make Setting page
