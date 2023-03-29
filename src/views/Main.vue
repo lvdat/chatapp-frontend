@@ -6,12 +6,25 @@
                     <div class="col-2 messhive--main__menu--toolbar__dropdown">
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="far fa-circle-user"></i>
+                                <i class="far fa-message"></i>
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li>
+                                    <div class="row messhive--main__menu--toolbar__dropdown--info">
+                                        <div class="col-3 messhive--main__menu--toolbar__dropdown--info__avatar">
+                                            <img src="@/assets/img/sample_avatar.svg" class="img-fluid rounded-start messhive--main__menu--toolbar__dropdown--info__avatar--img" alt="Chat App!">
+                                        </div>
+                                        <div class="col-9 messhive--main__menu--toolbar__dropdown--info__text">
+                                            <b>Lê Văn Đạt</b> <br />
+                                            <small>lvdatctu@gmail.com</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><i class="fas fa-gears"></i> &nbsp; Cài đặt tài khoản</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="far fa-comment-dots"></i> &nbsp; Đóp góp ý kiến</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fas fa-bug"></i> &nbsp; Báo lỗi</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li class="text-center"><a href="https://github.com/lvdat/chatapp-frontend" class="text-muted" style="text-decoration: none;" target="_blank"><small>MessHive Beta v0.1</small></a></li>
                             </ul>
                         </div>
                     </div>
@@ -79,5 +92,16 @@ button.dropdown-toggle {
 button.dropdown-toggle:hover {
     background-color: unset;
     color: #000;
+}
+.messhive--main__menu--toolbar__dropdown--info__avatar--img {
+    border-radius: 50%;
+}
+.messhive--main__menu--toolbar__dropdown--info__avatar {
+    padding-right: unset;
+}
+.messhive--main__menu--toolbar__dropdown--info {
+    border-bottom: 1px solid #ced4da;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 </style>
