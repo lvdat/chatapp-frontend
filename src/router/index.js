@@ -5,7 +5,12 @@ const routes = [
         path: '/',
         name: 'home.notlogin',
         component: () => import('@/views/HomeLanding.vue')
-    }
+    },
+    {
+        path: '/main',
+        name: 'home.logined',
+        component: () => import('@/views/Main.vue')
+    },
 ]
 
 const router = createRouter({
