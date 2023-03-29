@@ -1,29 +1,50 @@
-# chatapp-frontend
+## chatapp (frontend)
+Welcome to my course project! This project is a online chat app with multi platform!
 
-This template should help get you started developing with Vue 3 in Vite.
+> Check out backend code [here](#)
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+## Install
+Clone this repo:
+```bash
+git clone https://github.com/lvdat/chatapp-frontend
+```
+Go to repo folder and install dependencies (make sure you have `yarn ` installed):
+```bash
+cd chatapp-frontend
+yarn install
+```
+Enjoy! Run with dev server:
+```bash
+yarn dev
+```
+Or build:
+```bash
+yarn build
 ```
 
-### Compile and Hot-Reload for Development
+## To do
+- [ ] Landing Page for guest
+  - [ ] Login form
+  - [ ] Register form
+  - [ ] Terms & Policy page
+  - [ ] Features page
+  - [ ] For Developers page (API Docs)
+  - [ ] App Download page
+- [ ] Make Main page for user
+  - [ ] Make Toolbar menu
+  - [ ] Make Toolbar searchbar
+  - [ ] Make Conversation list
+  - [ ] Make Message Main page
+  - [ ] Make Setting page
+- [ ] Chat funtion
+  - [ ] Chat one-to-one
+  - [ ] Chat group
+    - [ ] Create group
+    - [ ] Admin permisson for group
+    - [ ] Out group
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- [ ] User function
+  - [ ] Change personal infomations
+  - [ ] Change avatar
+  - [ ] Change password
+  - [ ] Logout
