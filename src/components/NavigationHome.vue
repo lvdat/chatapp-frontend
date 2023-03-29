@@ -4,7 +4,7 @@
             <a class="navbar-brand" href="#">
                 <img src="@/assets/logo96.png" alt="Bootstrap" width="40" height="40">
                 <span class="nav-text">
-                    MESSEENGER
+                    MessHive
                 </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,8 +35,8 @@
     font-size: 18px;
     color: #000;
 }
-.nav-link:hover {
-    color: red;
+.nav-item:hover {
+    border-bottom: 2px solid #121FCF;
 }
 .navbar-toggler, .navbar-toggler.collapsed{
     border: none;

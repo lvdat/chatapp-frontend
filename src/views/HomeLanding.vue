@@ -17,6 +17,7 @@
 
             </div>
         </div>
+        <LandingFooter />
     </div>
 </template>
 <script>
@@ -24,6 +25,7 @@ import NavigationHome from '@/components/NavigationHome.vue'
 import LandingText from '@/components/LandingText.vue'
 import LandingImage from '@/components/LandingImage.vue'
 import LoginForm from '@/components/LoginForm.vue'
+import LandingFooter from '@/components/LandingFooter.vue'
 
 export default {
     components: {
@@ -31,6 +33,7 @@ export default {
         LandingText,
         LandingImage,
         LoginForm,
+        LandingFooter,
     },
     data () {
         return {
@@ -42,6 +45,9 @@ export default {
             const currentState = this.login
             this.login = !currentState
         }
+    },
+    watch: {
+
     }
 }
 </script>
