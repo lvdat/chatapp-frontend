@@ -3,6 +3,10 @@ Welcome to my course project! This project is a online chat app with multi platf
 
 > Check out backend code [here](#)
 
+<img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/lvdat/chatapp-frontend?style=for-the-badge">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/lvdat/chatapp-frontend?style=for-the-badge">
+<img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/lvdat/chatapp-frontend?style=for-the-badge">
+
 ## Install
 Clone this repo:
 ```bash
