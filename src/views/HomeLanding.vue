@@ -5,6 +5,7 @@
             <div class="col-md-6">
                 <LandingText />
                 <LoginForm v-if="login" />
+                <SignupForm v-else />
                 <p v-if="login">
                     Bạn chưa có tài khoản?, <a class="change-state_link" @click="changeState">Đăng ký ngay!</a>
                 </p>
@@ -26,6 +27,7 @@ import LandingText from '@/components/LandingText.vue'
 import LandingImage from '@/components/LandingImage.vue'
 import LoginForm from '@/components/LoginForm.vue'
 import LandingFooter from '@/components/LandingFooter.vue'
+import SignupForm from '@/components/SignupForm.vue'
 
 export default {
     components: {
@@ -34,6 +36,7 @@ export default {
         LandingImage,
         LoginForm,
         LandingFooter,
+        SignupForm,
     },
     data () {
         return {
